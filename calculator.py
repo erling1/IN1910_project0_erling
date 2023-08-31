@@ -5,10 +5,12 @@ def add(x: float, y: float) -> float:
     return x + y
 
 def divide(x,y):
-    return x/y
+    rounded_number = round(y)
+    return x/rounded_number
 
 def factorial(x):
-    return math.factorial(x)
+    x_positive = abs(x)
+    return math.factorial(x_positive)
 
 def sin(x):
     N = 20
