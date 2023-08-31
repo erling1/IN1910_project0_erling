@@ -8,5 +8,8 @@ tol=1e-9
 
 def test_add(): 
     assert add(1,2) == 3
+
+def test_float():
     assert abs(add(0.1,0.2) - 0.3) < tol
+    
 
